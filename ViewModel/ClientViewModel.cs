@@ -34,12 +34,12 @@ namespace WpfApp_NEKOINU.ViewModel
                       where cat1.ADR_CLIENT == login
                       where cat1.MDP_CLIENT == mdp
                       select cat1;
+            
             if (cli != null)
             {
-                SecondWindow a = new SecondWindow();
-                a.Show();
-
-                // close();
+                
+                SecondWindow f = new SecondWindow();
+                f.Show();
             }
             else
             {

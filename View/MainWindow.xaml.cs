@@ -35,6 +35,14 @@ namespace WpfApp_NEKOINU.View
             cvm.getLeClient(login, mdp);
         }
 
+        private void txb_login_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
+        }
+
+        private void txb_mdp_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
