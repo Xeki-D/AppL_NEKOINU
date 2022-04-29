@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_NEKOINU", "WpfApp_NEKOINU\WpfApp_NEKOINU.csproj", "{BEFE2915-F699-474B-B35D-DE47305DD67C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEFE2915-F699-474B-B35D-DE47305DD67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFE2915-F699-474B-B35D-DE47305DD67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFE2915-F699-474B-B35D-DE47305DD67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFE2915-F699-474B-B35D-DE47305DD67C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01B85205-D4B0-43D3-A7C3-174CDF27BC15}
+	EndGlobalSection
+EndGlobal
