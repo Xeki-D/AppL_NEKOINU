@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp_NEKOINU.View.SecondWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_NEKOINU.View"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid Background="#FFFBE9B9">
+        <TextBlock HorizontalAlignment="Left" Height="59" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="643" FontFamily="Arial Black" FontSize="48" Foreground="#FF48392A"><Run Text="NEKO"/><Run Text=" &amp; "/><Run Text="INU"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" Height="32" FontFamily="Arial" FontSize="18" Text="Insertion du produit :"/>
+        <Label Content="Nom du produit :" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Height="41" Width="119" FontSize="14" FontFamily="Arial"/>
+        <Label Content="Prix du produit :" HorizontalAlignment="Left" Margin="10,161,0,0" VerticalAlignment="Top" Height="41" Width="119" FontSize="14" FontFamily="Arial"/>
+        <TextBox x:Name="txb_nameP" HorizontalAlignment="Left" Height="27" Margin="129,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" />
+        <TextBox x:Name="txb_prixP" HorizontalAlignment="Left" Height="27" Margin="129,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" />
+        <Button Content="Envoyer" HorizontalAlignment="Left" Margin="301,376,0,0" VerticalAlignment="Top" Width="179" Height="34" Foreground="White" Background="#FF48392A" BorderBrush="#FF48392A" Click="Button_Click"/>
+        <TextBox x:Name="txb_stockP" HorizontalAlignment="Left" Height="27" Margin="129,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" />
+        <Label Content="Stock du produit :" HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top" Height="41" Width="119" FontSize="14" FontFamily="Arial"/>
+        <Label Content="Description du&#xD;&#xA;produit :" HorizontalAlignment="Left" Margin="10,253,0,0" VerticalAlignment="Top" Height="66" Width="119" FontSize="14" FontFamily="Arial"/>
+        <Label Content="Image du produit :" HorizontalAlignment="Left" Margin="348,115,0,0" VerticalAlignment="Top" Height="41" Width="132" FontSize="14" FontFamily="Arial"/>
+        <TextBox x:Name="txb_descP" HorizontalAlignment="Left" Height="99" Margin="129,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="552" />
+        <TextBox x:Name="txb_imgP" HorizontalAlignment="Left" Height="27" Margin="502,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" />
+        
+        <Label Content="Produit pour :&#xD;&#xA;(chien : 1 / chat : 2)" HorizontalAlignment="Left" Margin="348,189,0,0" VerticalAlignment="Top" Height="41" Width="170" FontSize="14" FontFamily="Arial"/>
+        <TextBox x:Name="txb_animalP" HorizontalAlignment="Left" Height="27" Margin="502,203,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" />
+
+    </Grid>
+</Window>
