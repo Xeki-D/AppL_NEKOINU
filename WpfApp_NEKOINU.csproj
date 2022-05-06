@@ -77,11 +77,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ViewModel\AddProduit.cs" />
-    <Compile Include="ViewModel\ClientViewModel.cs" />
+    <Compile Include="View\First.xaml.cs">
+      <DependentUpon>First.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\SelectionWindows.xaml.cs">
+      <DependentUpon>SelectionWindows.xaml</DependentUpon>
+    </Compile>
+    <Page Include="View\First.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -95,6 +103,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\SecondWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SelectionWindows.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
